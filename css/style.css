@@ -9,7 +9,7 @@
     height: 98vh;
     margin: 1vh auto;
     position: relative;
-    border: 1px solid black;
+    box-shadow: 3px 3px 3px #282828;
 }
 
 img{
@@ -17,14 +17,13 @@ img{
     height: 100%;
     position: absolute;
     object-fit: cover;
-    object-position: center;
 }
 
 .overlay{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .city{
@@ -35,4 +34,5 @@ img{
     font-size: 4em;
     font-family: 'Lobster', cursive;
     color: rgba(255,255,255,0.75);
+    text-shadow: 5px 5px 5px black;
 }
